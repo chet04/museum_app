@@ -16,6 +16,7 @@
       <%= image_tag painting.image %>
       <p><b>Year</b>: <%= painting.year %></p>
       <p><b>Style</b>: <%= painting.style %></p>
+      <p><b>Museum</b>: <%= link_to painting.museum.name, painting.museum %></p>
     </section>
     <hr>
   <% end %>
